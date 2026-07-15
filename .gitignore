@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated GIFs from notebook renders (regenerated on run)
+**/*.gif
+
+# OS / editor cruft
+.DS_Store

@@ -1,0 +1,36 @@
+[project]
+name = "rl-course"
+version = "0.1.0"
+description = "Reinforcement Learning exercises for Dakar Institute of Technology (DIT)"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    # Core scientific stack
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "tqdm>=4.66",
+    # RL environments
+    "gymnasium[classic-control,toy-text,box2d]>=0.29",
+    "swig>=4.2",             # build-time dependency for box2d (LunarLander)
+    "pygame>=2.5",            # rendering for classic-control / toy-text
+    "imageio>=2.34",         # save episode GIFs inside notebooks
+    # Deep RL (function approximation, actor-critic)
+    "torch>=2.2",
+    # Notebook tooling
+    "jupyter>=1.0",
+    "notebook>=7.1",
+    "ipykernel>=6.29",
+    "ipywidgets>=8.1",
+]
+
+[project.optional-dependencies]
+# Optional: only needed if instructors want reference baselines to compare against
+baselines = [
+    "stable-baselines3>=2.3",
+]
+
+[tool.uv]
+package = false
