@@ -108,18 +108,6 @@ directory tree), so they work from any subfolder.
 
 ---
 
-## Suggested schedule (12-week course)
-| Weeks | Modules |
-|---|---|
-| 1–2 | 01 Gymnasium + RL foundations |
-| 3–4 | 02 Dynamic Programming |
-| 5–7 | 03 Model-free RL |
-| 8–9 | 04 Function approximation |
-| 10 | 05 Model-based RL |
-| 11–12 | 06 Actor-Critic + mini-project |
-
----
-
 ## References
 - Sutton & Barto, *Reinforcement Learning: An Introduction* (2nd ed., 2018) — the
   canonical text this course follows.
