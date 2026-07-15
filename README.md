@@ -38,8 +38,8 @@ environments.
 ### Quick start (recommended)
 Clone the repository, then run the one-shot installer from the repo root:
 ```bash
-git clone <repo-url> RL_exercices
-cd RL_exercices
+git clone https://github.com/amathsow/rl-course-assignments.git
+cd rl-course-assignments
 ./install.sh
 ```
 `install.sh` installs `uv` (if missing), creates the virtual environment with every
